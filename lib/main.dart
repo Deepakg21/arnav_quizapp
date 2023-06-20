@@ -20,34 +20,44 @@ class _MyAppState extends State<MyApp> {
   var totalScore = 0;
   static const List<Map<String, dynamic>> _questions = [
     {
-      "question": "word length of a personal computer is",
-      "answers": ["4 bits", "8 bits", "16 bits", "64 bits"],
-      "correctAns": "8 bits",
-    },
-    {
-      "question": "Which device is required for the internet connection?",
-      "answers": ["joystick", "modem", "CD drive", "nic card"],
-      "correctAns": "modem",
-    },
-    {
-      "question": "cursor is a",
+      "question": "Who invented C programming?",
       "answers": [
-        "pixel",
-        "thin blinking line",
-        "pointing device",
+        "james gosling",
+        "dennis ritche",
+        "bjarne stroustrup",
+        "tim berners"
+      ],
+      "correctAns": "dennis ritche",
+    },
+    {
+      "question": "where does c language get invented?",
+      "answers": [
+        "ritche's lab",
+        "AT & T Bell labs",
+        "under oak tree",
+        "fringe labs"
+      ],
+      "correctAns": "AT & T Bell labs",
+    },
+    {
+      "question": "which symbol terminates a C statement?",
+      "answers": [".", ",", ";", "}"],
+      "correctAns": ";",
+    },
+    {
+      "question": "diagram representation of an algorithm is called",
+      "answers": [
+        "data flow diagram",
+        "E-R diagram",
+        "flowchart",
         "none of the above"
       ],
-      "correctAns": "thin blinking line",
+      "correctAns": "flowchart",
     },
     {
-      "question": "CPU is an example of",
-      "answers": ["software", "a program", "hardware", "an output device"],
-      "correctAns": "hardware",
-    },
-    {
-      "question": "an example of peripheral equipment is the ",
-      "answers": ["CPU", "spreadsheet", "microcomputer", "printer"],
-      "correctAns": "printer",
+      "question": "C was developed in the year ",
+      "answers": ["1970", "1972", "1976", "1980"],
+      "correctAns": "1972",
     },
   ];
 
@@ -69,10 +79,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "My app",
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.yellow),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("UE213111"),
+          title: const Text("UE218120"),
         ),
         floatingActionButton: FloatingActionButton(
           child: const Text(
