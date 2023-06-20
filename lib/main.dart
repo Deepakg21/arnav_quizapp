@@ -20,33 +20,34 @@ class _MyAppState extends State<MyApp> {
   var totalScore = 0;
   static const List<Map<String, dynamic>> _questions = [
     {
-      "question":
-          "Who developed the Flutter Framework and continues to maintain it today?",
-      "answers": ["FaceBook", "Microsoft", "Google", "Oracle", "Apple"],
-      "correctAns": "Google",
+      "question": "word length of a personal computer is",
+      "answers": ["4 bits", "8 bits", "16 bits", "64 bits"],
+      "correctAns": "8 bits",
     },
     {
-      "question":
-          "Which programming language is used to build Flutter applications?",
-      "answers": ["Kotlin", "Dart", "Java", "Go", "Python"],
-      "correctAns": "Dart",
+      "question": "Which device is required for the internet connection?",
+      "answers": ["joystick", "modem", "CD drive", "nic card"],
+      "correctAns": "modem",
     },
     {
-      "question": "How many types of widgets are there in Flutter?",
-      "answers": ["2", "4", "6", "8", "8+"],
-      "correctAns": "2",
+      "question": "cursor is a",
+      "answers": [
+        "pixel",
+        "thin blinking line",
+        "pointing device",
+        "none of the above"
+      ],
+      "correctAns": "thin blinking line",
     },
     {
-      "question":
-          "Which function will return the widgets attached to the screen as a root of the widget tree to be rendered on screen?",
-      "answers": ["main()", "runApp()", "container()", "root()"],
-      "correctAns": "runApp()",
+      "question": "CPU is an example of",
+      "answers": ["software", "a program", "hardware", "an output device"],
+      "correctAns": "hardware",
     },
     {
-      "question":
-          "What is the key configuration file used when building a Flutter project?",
-      "answers": ["pubsec.yaml", "pubsec.xml", "config.html", "root.xml"],
-      "correctAns": "pubsec.yaml",
+      "question": "an example of peripheral equipment is the ",
+      "answers": ["CPU", "spreadsheet", "microcomputer", "printer"],
+      "correctAns": "printer",
     },
   ];
 
@@ -68,12 +69,10 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "My app",
-      theme: ThemeData(
-        primarySwatch: Colors.purple,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("My app title"),
+          title: const Text("UE213111"),
         ),
         floatingActionButton: FloatingActionButton(
           child: const Text(
