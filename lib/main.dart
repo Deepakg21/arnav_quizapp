@@ -20,44 +20,29 @@ class _MyAppState extends State<MyApp> {
   var totalScore = 0;
   static const List<Map<String, dynamic>> _questions = [
     {
-      "question": "Who invented C programming?",
-      "answers": [
-        "james gosling",
-        "dennis ritche",
-        "bjarne stroustrup",
-        "tim berners"
-      ],
-      "correctAns": "dennis ritche",
+      "question": "In which country is transylvania?",
+      "answers": ["bulgaria", "romania", "croatia", "serbia"],
+      "correctAns": "romania",
     },
     {
-      "question": "where does c language get invented?",
-      "answers": [
-        "ritche's lab",
-        "AT & T Bell labs",
-        "under oak tree",
-        "fringe labs"
-      ],
-      "correctAns": "AT & T Bell labs",
+      "question": "which of the following animals can run the fastest?",
+      "answers": ["cheetah", "leopard", "tiger", "lion"],
+      "correctAns": "cheetah",
     },
     {
-      "question": "which symbol terminates a C statement?",
-      "answers": [".", ",", ";", "}"],
-      "correctAns": ";",
+      "question": "what is the main component of the sun?",
+      "answers": ["liquid lava", "gas", "molten iron", "rock"],
+      "correctAns": "gas",
     },
     {
-      "question": "diagram representation of an algorithm is called",
-      "answers": [
-        "data flow diagram",
-        "E-R diagram",
-        "flowchart",
-        "none of the above"
-      ],
-      "correctAns": "flowchart",
+      "question": "first country to use tanks in combat during world war 1",
+      "answers": ["france", "japan", "britian", "germany"],
+      "correctAns": "britian",
     },
     {
-      "question": "C was developed in the year ",
-      "answers": ["1970", "1972", "1976", "1980"],
-      "correctAns": "1972",
+      "question": "most point player can score with single throw in darts? ",
+      "answers": ["20", "40", "60", "80"],
+      "correctAns": "60",
     },
   ];
 
@@ -79,7 +64,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "My app",
-      theme: ThemeData(primarySwatch: Colors.yellow),
+      theme: ThemeData(primarySwatch: Colors.brown),
       home: Scaffold(
         appBar: AppBar(
           title: const Text("UE218120"),

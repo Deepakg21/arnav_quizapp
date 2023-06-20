@@ -11,7 +11,7 @@ class Result extends StatelessWidget {
       child: Stack(children: [
         Container(
           alignment: Alignment.center,
-          child: Image.asset('assets/images/well.jpeg', width: 400),
+          child: Image.asset('assets/images/well.jpg', width: 400),
         ),
         Container(
           margin: EdgeInsets.fromLTRB(380, 460, 0, 0),
